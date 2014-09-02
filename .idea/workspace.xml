@@ -22,7 +22,7 @@
     <favorites_list name="agenda" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53189576">
+    <splitter split-orientation="horizontal" split-proportion="0.48068285">
       <split-first>
         <leaf>
           <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
@@ -36,12 +36,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/js/test.js">
+          <file leaf-file-name="LitePeriod.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/modules/LitePeriod.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="40" selection-start="548" selection-end="548" vertical-scroll-proportion="0.46932516" vertical-offset="0" max-vertical-offset="652">
+                <state line="18" column="36" selection-start="349" selection-end="349" vertical-scroll-proportion="0.27798742" vertical-offset="0" max-vertical-offset="795">
                   <folding>
-                    <element signature="e#0#40#0" expanded="false" />
+                    <element signature="e#6#87#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -50,7 +50,16 @@
           <file leaf-file-name="home.tpl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/home.tpl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+                <state line="17" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="544">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LiteHolyday.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/modules/LiteHolyday.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="2" selection-start="608" selection-end="608" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
                   <folding />
                 </state>
               </provider>
@@ -143,7 +152,7 @@
           <file leaf-file-name="Period.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/Period.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="952">
+                <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="952">
                   <folding>
                     <element signature="e#6#88#0" expanded="false" />
                     <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
@@ -160,12 +169,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/controlers/api.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="32" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.76677316" vertical-offset="404" max-vertical-offset="1411">
+                <state line="58" column="32" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-24.846153" vertical-offset="340" max-vertical-offset="1513">
                   <folding>
                     <element signature="e#6#88#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/js/test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="40" selection-start="828" selection-end="828" vertical-scroll-proportion="0.5047506" vertical-offset="0" max-vertical-offset="842">
+                  <folding>
+                    <element signature="e#0#40#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -191,10 +211,12 @@
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/views/home.tpl.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/views/home.tpl" />
         <option value="$PROJECT_DIR$/modules/Period.php" />
-        <option value="$PROJECT_DIR$/modules/HolyDay.php" />
         <option value="$PROJECT_DIR$/modules/DB_Manager.php" />
+        <option value="$PROJECT_DIR$/modules/LiteHolyday.php" />
+        <option value="$PROJECT_DIR$/modules/HolyDay.php" />
+        <option value="$PROJECT_DIR$/modules/LitePeriod.php" />
+        <option value="$PROJECT_DIR$/views/home.tpl" />
         <option value="$PROJECT_DIR$/controlers/api.php" />
         <option value="$PROJECT_DIR$/views/js/test.js" />
       </list>
@@ -433,10 +455,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21566401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21566401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1103,41 +1125,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="0" selection-end="1450" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1275">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="-8.5" vertical-offset="17" max-vertical-offset="2091">
-          <folding>
-            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="127" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
-            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
-            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
-            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
-            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
-            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1186,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/Period.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="952">
+        <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="952">
           <folding>
             <element signature="e#6#88#0" expanded="false" />
             <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
@@ -1211,9 +1202,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/LiteHolyday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="2" selection-start="608" selection-end="608" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="127" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="-8.5" vertical-offset="17" max-vertical-offset="2091">
+          <folding>
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controlers/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="32" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.76677316" vertical-offset="404" max-vertical-offset="1411">
+        <state line="58" column="32" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-24.846153" vertical-offset="340" max-vertical-offset="1513">
           <folding>
             <element signature="e#6#88#0" expanded="true" />
           </folding>
@@ -1222,9 +1251,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="548" selection-end="548" vertical-scroll-proportion="0.46932516" vertical-offset="0" max-vertical-offset="652">
+        <state line="27" column="40" selection-start="828" selection-end="828" vertical-scroll-proportion="0.5047506" vertical-offset="0" max-vertical-offset="842">
           <folding>
             <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/LitePeriod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="36" selection-start="349" selection-end="349" vertical-scroll-proportion="0.27798742" vertical-offset="0" max-vertical-offset="795">
+          <folding>
+            <element signature="e#6#87#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -10,7 +10,7 @@ require_once '../modules/HolyDay.php';
 require_once '../modules/DB_Manager.php';
 require_once '../modules/Period.php';
 require_once '../modules/smarty_config.php';
-
+require_once '../modules/LitePeriod.php';
 if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($_GET['sun']) && isset($_GET['sat']))
 {
     $fromDate = new DateTime($_GET['from']);
@@ -39,18 +39,24 @@ if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($
 
     (Period::Filter($periods,$longest,$cheapest));
 
-
+    $longestLite =array();
+    $cheapestLite=array();
     foreach ($longest as $l)
     {
+        $longestLite[]= LitePeriod::ExtractLiteVersion($l,true);
         $resultData[] = Period::getAsString($l);
     }
 
     foreach ($cheapest as $l)
     {
+        $cheapestLite[]= LitePeriod::ExtractLiteVersion($l,true);
         $resultData[] = Period::getAsString($l);
     }
 
-    echo json_encode($cheapest);
+    //repakcing
+
+    $pack = array('economique'=>$cheapestLite,'longue'=>$longestLite);
+    echo json_encode($pack,true);
 
 
 
