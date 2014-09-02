@@ -197,7 +197,7 @@ class DB
     return clone $holyday;
     }
 
-    public static function isNextPrevAHolyday(HolyDay &$holyday,  $PrevNex)
+    public static function isNextPrevAHolyday(HolyDay &$holyday,&$holydaysList , $PrevNex,$include_saturdays,$include_sundays)
     {
         $newDate =clone $holyday->dateTime;
         $hd;
@@ -211,7 +211,7 @@ class DB
             $hd = new HolyDay($newDate->sub(new DateInterval('P'.$Absval.'D')));
         }
 
-        $hd = self::CheckIsHolyDay($hd, true, true);
+        $hd = self::CheckIsHolyDay($hd,$include_saturdays,$include_sundays);
         if ($hd->IsHolyday)
         {
             if ($PrevNex > 0)
@@ -222,6 +222,7 @@ class DB
             {
                 $holyday->PreviousIsHolyday = true;
             }
+            $holydaysList[] = $hd;
 
         return true;
         }

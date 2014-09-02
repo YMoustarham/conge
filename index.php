@@ -2,7 +2,7 @@
 session_start();
 
 require_once('modules/DB_Manager.php');
-
+require_once('modules/smarty_config.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookHttpable.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookCurl.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookCurlHttpClient.php');
@@ -28,8 +28,13 @@ use Facebook\FacebookRequestException;
 use Facebook\FacebookAuthorizationException;
 use Facebook\GraphObject;
 
+
+$smarty = new Smarty();
+$smarty->display('views/home.tpl');
+
+
 // init app with app id (APPID) and secret (SECRET)
-FacebookSession::setDefaultApplication('1462311460710112','9d463a4952ceab96f73c052df23ca370');
+/*FacebookSession::setDefaultApplication('1462311460710112','9d463a4952ceab96f73c052df23ca370');
 
 // login helper with redirect_uri
 $host = 'http://localhost/';
@@ -73,6 +78,7 @@ if ( isset( $session ) )
 else
 {
     // show login url
+
     echo '<a href="' . $helper->getLoginUrl($params) . '">Login</a>';
 }
 function register_uer($graph)
@@ -116,4 +122,4 @@ class Event
         $this->time_zone = $time_zone;
     }
 
-}
+}*/

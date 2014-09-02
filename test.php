@@ -21,9 +21,12 @@ $holydays;
 
 
 echo "<pre>";
-$holydays =HolyDay::GetolyDays($fromDate,$toDate) ;
+$holydays =HolyDay::GetolyDays($fromDate,$toDate,true,true) ;
+foreach ($holydays as $hd) {
+    $hd->show_as_text();
+}
 
-$periods = Period::calculateDates($holydays,7) ;
+$periods = Period::calculateDates($holydays,7,true,true) ;
 
 $longest;
 $cheapest;

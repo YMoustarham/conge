@@ -18,9 +18,11 @@ public $Length=0 ;
 public $Cost;
 public $AddedDaysAfter = 0;
 public $AddedDaysBefor = 0;
+public $Priority;
+public $HolydaysList;
 public function TotalLength() { return $this->Length + $this->AddedDaysAfter + $this->AddedDaysBefor;  }
 public function Balance() {  return (float)($this->Cost)/ $this->TotalLength() ;  }
-public $Priority;
+
 
 public function Period($from, $to, $length,$cost, $addedDaysAfter,$addedDaysBefor)
 {
@@ -65,10 +67,10 @@ public static function getAsString($period)
     return $data;
 }
 
-public static function calculateDates($holydaysList, $holydayLength)
+public static function GetPeriods($holydaysList, $holydayLength,$include_saturdays,$include_sundays)
 {
     $list;
-
+    $holydays = array();
     for ($i = 0; $i < count($holydaysList) - $holydayLength; $i++)
     {
         $addedDaysBefor = 0;
@@ -82,7 +84,7 @@ public static function calculateDates($holydaysList, $holydayLength)
             $priority += $holydaysList[$i + $j]->Priority;
             if ($holydaysList[$i + $j]->IsHolyday)
             {
-
+                $holydays[]= $holydaysList[$i+$j];
             }
             else
             {
@@ -92,7 +94,7 @@ public static function calculateDates($holydaysList, $holydayLength)
             {
                 $hd = $holydaysList[$i + $j];
                 $index = -1;
-                while (DB::isNextPrevAHolyday( $hd, $index))
+                while (DB::isNextPrevAHolyday( $hd, $holydays,$index,$include_saturdays,$include_sundays))
                 {
 
                     $index--;
@@ -103,7 +105,7 @@ public static function calculateDates($holydaysList, $holydayLength)
             {
                 $hd = $holydaysList[$i + $j];
                 $index = 1;
-                while (DB::isNextPrevAHolyday( $hd, $index))
+                while (DB::isNextPrevAHolyday( $hd, $holydays,$index,$include_saturdays,$include_sundays))
                 {
 
                     $index++;
@@ -115,6 +117,7 @@ public static function calculateDates($holydaysList, $holydayLength)
 
         $list[] = new Period(clone $holydaysList[$i],clone $holydaysList[$i + $holydayLength-1], $length, $cost, $addedDaysAfter, $addedDaysBefor);
         $list[count( $list) - 1]->Priority = $priority;
+        $list[count( $list) - 1]->HolydaysList = $holydays;
     }
 
     return $list;

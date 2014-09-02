@@ -17,6 +17,23 @@ class HolyDay
     public $PreviousIsHolyday = false;
     public $Priority;
 
+    public function show_as_text()
+    {
+        $data;
+        if($this->IsHolyday)
+        {
+            $data="<b>". $this->HolydayName."</b>"." ".
+            $this->dateTime->format('l d-m-Y')." ";
+
+        }
+        else
+        {
+            $data = "Normal day :)  ".
+            $this->dateTime->format('l d-m-Y')." ";
+        }
+        echo($data."<br>");
+    }
+
     public function HolyDay($dateTime)
     {
         $this->Date =intval( $dateTime->format('d') . $dateTime->format('m'));
@@ -47,12 +64,12 @@ class HolyDay
         return intval($d);
     }
 
-    public static function GetolyDays(DateTime $from, DateTime $to,  string &$output=null)
+    public static function GetolyDays(DateTime $from, DateTime $to,$include_saturdays ,$include_sundays,  string &$output=null)
     {
         $holydays=array();
         $datediff = $from->diff( $to);
         $days = $datediff->days;
-        echo "diff :". $days."<br>";
+
 
 
         $loopDate = $from;
@@ -61,7 +78,7 @@ class HolyDay
 
 
 
-            $holydays[] =DB::checkIsHolyday( new HolyDay(clone $loopDate),true,true);
+            $holydays[] =DB::checkIsHolyday( new HolyDay(clone $loopDate),$include_saturdays,$include_sundays);
 
             $output = $output + $holydays[count($holydays) - 1]->Date . "<br>";
             $loopDate->add( new DateInterval('P1D'));

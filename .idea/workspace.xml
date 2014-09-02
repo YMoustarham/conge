@@ -22,24 +22,35 @@
     <favorites_list name="agenda" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.53189576">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="11" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-0.14583333" vertical-offset="799" max-vertical-offset="1989">
+                <state line="14" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="-8.5" vertical-offset="17" max-vertical-offset="2091">
                   <folding>
-                    <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+                    <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Taches" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Taches">
+          <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/js/test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="33" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+                <state line="20" column="40" selection-start="548" selection-end="548" vertical-scroll-proportion="0.46932516" vertical-offset="0" max-vertical-offset="652">
+                  <folding>
+                    <element signature="e#0#40#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.tpl" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/home.tpl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
                   <folding />
                 </state>
               </provider>
@@ -48,16 +59,7 @@
           <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="smarty_config.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/modules/smarty_config.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="45" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
+                <state line="21" column="0" selection-start="0" selection-end="1450" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1275">
                   <folding />
                 </state>
               </provider>
@@ -67,11 +69,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="HolyDay.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="HolyDay.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1309">
-                  <folding />
+                <state line="66" column="127" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="544">
+                  <folding>
+                    <element signature="e#6#89#0" expanded="false" />
+                    <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+                    <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+                    <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+                    <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+                    <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+                    <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -79,8 +89,53 @@
           <file leaf-file-name="DB_Manager.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="235" column="0" selection-start="6476" selection-end="6476" vertical-scroll-proportion="0.0" vertical-offset="3995" max-vertical-offset="4097">
-                  <folding />
+                <state line="198" column="0" selection-start="5650" selection-end="5650" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="493">
+                  <folding>
+                    <element signature="e#6#75#0" expanded="false" />
+                    <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#236#627#0" expanded="false" />
+                    <element signature="e#558#627#0" expanded="false" />
+                    <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#804#2105#0" expanded="false" />
+                    <element signature="e#918#2022#0" expanded="false" />
+                    <element signature="e#1053#2022#0" expanded="false" />
+                    <element signature="e#1691#2008#0" expanded="false" />
+                    <element signature="e#1872#2008#0" expanded="false" />
+                    <element signature="e#2041#2105#0" expanded="false" />
+                    <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#2279#3082#0" expanded="false" />
+                    <element signature="e#2480#2999#0" expanded="false" />
+                    <element signature="e#2517#2884#0" expanded="false" />
+                    <element signature="e#2577#2677#0" expanded="false" />
+                    <element signature="e#2793#2884#0" expanded="false" />
+                    <element signature="e#2911#2999#0" expanded="false" />
+                    <element signature="e#3018#3082#0" expanded="false" />
+                    <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#3299#3985#0" expanded="false" />
+                    <element signature="e#3538#3902#0" expanded="false" />
+                    <element signature="e#3575#3785#0" expanded="false" />
+                    <element signature="e#3635#3734#0" expanded="false" />
+                    <element signature="e#3813#3902#0" expanded="false" />
+                    <element signature="e#3921#3985#0" expanded="false" />
+                    <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#4283#5048#0" expanded="false" />
+                    <element signature="e#4505#4965#0" expanded="false" />
+                    <element signature="e#4542#4850#0" expanded="false" />
+                    <element signature="e#4808#4850#0" expanded="false" />
+                    <element signature="e#4877#4965#0" expanded="false" />
+                    <element signature="e#4984#5048#0" expanded="false" />
+                    <element signature="e#5058#5612#0" expanded="false" />
+                    <element signature="e#5209#5526#0" expanded="false" />
+                    <element signature="e#5421#5526#0" expanded="false" />
+                    <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+                    <element signature="e#5974#6116#0" expanded="false" />
+                    <element signature="e#6525#6575#0" expanded="false" />
+                    <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+                    <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+                    <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+                    <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+                    <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -88,8 +143,30 @@
           <file leaf-file-name="Period.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/modules/Period.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="32" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2941">
-                  <folding />
+                <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="952">
+                  <folding>
+                    <element signature="e#6#88#0" expanded="false" />
+                    <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+                    <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+                    <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+                    <element signature="e#2230#2287#0" expanded="false" />
+                    <element signature="e#3418#3818#0" expanded="false" />
+                    <element signature="e#3674#3818#0" expanded="false" />
+                    <element signature="e#3828#4221#0" expanded="false" />
+                    <element signature="e#4078#4221#0" expanded="false" />
+                    <element signature="e#4231#4582#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="api.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/controlers/api.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="52" column="32" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.76677316" vertical-offset="404" max-vertical-offset="1411">
+                  <folding>
+                    <element signature="e#6#88#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -108,14 +185,18 @@
       <list>
         <option value="$PROJECT_DIR$/facebook/tests/FacebookRequestTest.php" />
         <option value="$PROJECT_DIR$/HolyDay.php" />
+        <option value="$PROJECT_DIR$/modules/smartiy_config.php" />
+        <option value="$PROJECT_DIR$/modules/smarty_config.php" />
+        <option value="$PROJECT_DIR$/Taches" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/views/home.tpl.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/home.tpl" />
         <option value="$PROJECT_DIR$/modules/Period.php" />
         <option value="$PROJECT_DIR$/modules/HolyDay.php" />
         <option value="$PROJECT_DIR$/modules/DB_Manager.php" />
-        <option value="$PROJECT_DIR$/modules/smartiy_config.php" />
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/modules/smarty_config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Taches" />
+        <option value="$PROJECT_DIR$/controlers/api.php" />
+        <option value="$PROJECT_DIR$/views/js/test.js" />
       </list>
     </option>
   </component>
@@ -168,6 +249,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,19 +258,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agenda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.idesettings.emmet" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -280,15 +432,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21566401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21566401" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17124394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10096931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -296,11 +448,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -318,9 +470,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16962843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -338,15 +490,130 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="11" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+          <folding>
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taches">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/smarty_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="45" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1309">
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="0" selection-start="6476" selection-end="6476" vertical-scroll-proportion="0.0" vertical-offset="3995" max-vertical-offset="4097">
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Period.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="32" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2941">
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+            <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="e#2230#2287#0" expanded="false" />
+            <element signature="e#3418#3818#0" expanded="false" />
+            <element signature="e#3674#3818#0" expanded="false" />
+            <element signature="e#3828#4221#0" expanded="false" />
+            <element signature="e#4078#4221#0" expanded="false" />
+            <element signature="e#4231#4582#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="11" selection-start="1942" selection-end="1942" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1989">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -375,21 +642,85 @@
     <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1309">
-          <folding />
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="235" column="0" selection-start="6476" selection-end="6476" vertical-scroll-proportion="0.0" vertical-offset="3995" max-vertical-offset="4097">
-          <folding />
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/Period.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="32" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2941">
-          <folding />
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+            <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="e#2230#2287#0" expanded="false" />
+            <element signature="e#3418#3818#0" expanded="false" />
+            <element signature="e#3674#3818#0" expanded="false" />
+            <element signature="e#3828#4221#0" expanded="false" />
+            <element signature="e#4078#4221#0" expanded="false" />
+            <element signature="e#4231#4582#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -397,7 +728,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="19" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0" vertical-offset="1448" max-vertical-offset="2108">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -405,21 +736,85 @@
     <entry file="file://$PROJECT_DIR$/modules/Period.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="28" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2856">
-          <folding />
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+            <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="e#2230#2287#0" expanded="false" />
+            <element signature="e#3418#3818#0" expanded="false" />
+            <element signature="e#3674#3818#0" expanded="false" />
+            <element signature="e#3828#4221#0" expanded="false" />
+            <element signature="e#4078#4221#0" expanded="false" />
+            <element signature="e#4231#4582#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1241">
-          <folding />
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="58" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2601">
-          <folding />
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,7 +822,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="19" selection-start="2418" selection-end="2418" vertical-scroll-proportion="0.0" vertical-offset="1448" max-vertical-offset="2108">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -435,21 +830,85 @@
     <entry file="file://$PROJECT_DIR$/modules/Period.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="28" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="2856">
-          <folding />
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+            <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="e#2230#2287#0" expanded="false" />
+            <element signature="e#3418#3818#0" expanded="false" />
+            <element signature="e#3674#3818#0" expanded="false" />
+            <element signature="e#3828#4221#0" expanded="false" />
+            <element signature="e#4078#4221#0" expanded="false" />
+            <element signature="e#4231#4582#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1241">
-          <folding />
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="58" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2601">
-          <folding />
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -457,7 +916,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="1" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="887" max-vertical-offset="2108">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -465,7 +924,52 @@
     <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="58" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="2601">
-          <folding />
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,7 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="80" selection-start="2031" selection-end="2031" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1292">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -486,7 +990,52 @@
     <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="0" selection-start="3596" selection-end="3596" vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="2380">
-          <folding />
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -540,54 +1089,143 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="673" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Taches">
+    <entry file="file://$PROJECT_DIR$/modules/smarty_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+        <state line="14" column="45" selection-start="361" selection-end="361" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/smarty_config.php">
+    <entry file="file://$PROJECT_DIR$/Taches">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
+        <state line="5" column="33" selection-start="191" selection-end="191" vertical-scroll-proportion="0.099415205" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1309">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="0" selection-start="6476" selection-end="6476" vertical-scroll-proportion="0.0" vertical-offset="3995" max-vertical-offset="4097">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/Period.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="32" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2941">
+        <state line="21" column="0" selection-start="0" selection-end="1450" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="11" selection-start="1942" selection-end="1942" vertical-scroll-proportion="-0.14583333" vertical-offset="799" max-vertical-offset="1989">
+        <state line="14" column="25" selection-start="810" selection-end="810" vertical-scroll-proportion="-8.5" vertical-offset="17" max-vertical-offset="2091">
           <folding>
-            <marker date="1409610844000" expanded="false" signature="2441:2454" placeholder="..." />
+            <marker date="1409657047875" expanded="false" signature="2548:2561" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/HolyDay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1309">
-          <folding />
+        <state line="66" column="127" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#6#89#0" expanded="false" />
+            <element signature="n#show_as_text#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#HolyDay#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#ToHijri#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetDayFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetMonthFromInt#0;n#HolyDay#0;n#!!top" expanded="false" />
+            <element signature="n#GetolyDays#0;n#HolyDay#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/DB_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="0" selection-start="5650" selection-end="5650" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="e#6#75#0" expanded="false" />
+            <element signature="n#ConnectDB#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#236#627#0" expanded="false" />
+            <element signature="e#558#627#0" expanded="false" />
+            <element signature="n#add_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#804#2105#0" expanded="false" />
+            <element signature="e#918#2022#0" expanded="false" />
+            <element signature="e#1053#2022#0" expanded="false" />
+            <element signature="e#1691#2008#0" expanded="false" />
+            <element signature="e#1872#2008#0" expanded="false" />
+            <element signature="e#2041#2105#0" expanded="false" />
+            <element signature="n#check_user#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#2279#3082#0" expanded="false" />
+            <element signature="e#2480#2999#0" expanded="false" />
+            <element signature="e#2517#2884#0" expanded="false" />
+            <element signature="e#2577#2677#0" expanded="false" />
+            <element signature="e#2793#2884#0" expanded="false" />
+            <element signature="e#2911#2999#0" expanded="false" />
+            <element signature="e#3018#3082#0" expanded="false" />
+            <element signature="n#is_fields_linked#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#3299#3985#0" expanded="false" />
+            <element signature="e#3538#3902#0" expanded="false" />
+            <element signature="e#3575#3785#0" expanded="false" />
+            <element signature="e#3635#3734#0" expanded="false" />
+            <element signature="e#3813#3902#0" expanded="false" />
+            <element signature="e#3921#3985#0" expanded="false" />
+            <element signature="n#checkIsHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#4283#5048#0" expanded="false" />
+            <element signature="e#4505#4965#0" expanded="false" />
+            <element signature="e#4542#4850#0" expanded="false" />
+            <element signature="e#4808#4850#0" expanded="false" />
+            <element signature="e#4877#4965#0" expanded="false" />
+            <element signature="e#4984#5048#0" expanded="false" />
+            <element signature="e#5058#5612#0" expanded="false" />
+            <element signature="e#5209#5526#0" expanded="false" />
+            <element signature="e#5421#5526#0" expanded="false" />
+            <element signature="n#isNextPrevAHolyday#0;n#DB#0;n#!!top" expanded="false" />
+            <element signature="e#5974#6116#0" expanded="false" />
+            <element signature="e#6525#6575#0" expanded="false" />
+            <marker date="1409663967679" expanded="false" signature="866:903" placeholder="SELECT id FR..users..." />
+            <marker date="1409663967679" expanded="false" signature="1459:1616" placeholder="INSERT INTO ..." />
+            <marker date="1409663967679" expanded="false" signature="2339:2375" placeholder="SELECT * FRO..users..." />
+            <marker date="1409663967679" expanded="false" signature="3359:3434" placeholder="SELECT * FRO..$table_name WHERE..." />
+            <marker date="1409663967679" expanded="false" signature="4343:4400" placeholder="SELECT * FRO..test_national..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Period.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="33" selection-start="1638" selection-end="1648" vertical-scroll-proportion="-11.115385" vertical-offset="136" max-vertical-offset="952">
+          <folding>
+            <element signature="e#6#88#0" expanded="false" />
+            <element signature="n#Period#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#getAsString#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="n#GetPeriods#0;n#Period#0;n#!!top" expanded="false" />
+            <element signature="e#2230#2287#0" expanded="false" />
+            <element signature="e#3418#3818#0" expanded="false" />
+            <element signature="e#3674#3818#0" expanded="false" />
+            <element signature="e#3828#4221#0" expanded="false" />
+            <element signature="e#4078#4221#0" expanded="false" />
+            <element signature="e#4231#4582#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlers/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="32" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.76677316" vertical-offset="404" max-vertical-offset="1411">
+          <folding>
+            <element signature="e#6#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/js/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="40" selection-start="548" selection-end="548" vertical-scroll-proportion="0.46932516" vertical-offset="0" max-vertical-offset="652">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
