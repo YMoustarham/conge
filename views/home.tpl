@@ -1,3 +1,11 @@
+{if isset($login)}{$login}{/if}
+<pre>
+{if isset($events)}{$events}{/if}
+</pre>
+
+
+
+
 <label for="from_date">From</label>
 <input type="date" id="from_date" name="btn" value="send">
 <label for="to_date">To</label>
