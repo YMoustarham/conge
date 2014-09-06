@@ -17,7 +17,10 @@ if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($
     $toDate = new DateTime($_GET['to']);
 
 
-
+    //TODO secure inputs befor sending to be quered
+    //TODO check validity of dates $from<$to
+    //TODO days should be bigger then 2
+    //TODO set somthing to be returned if faild
     $include_sun = ($_GET['sun']=='true')? true:false;
     $include_sat = ($_GET['sat']=='true')? true:false;
     $dayscount = intval($_GET['days']);
