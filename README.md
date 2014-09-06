@@ -1,4 +1,4 @@
-conge
+#conge
 =====
 
 an application that helps get the must of your holydays by giving user the best period to take thier holydays
@@ -42,3 +42,16 @@ result will be an object with this structure:
     Holyday.Name        //the holyday(s) or event(s) Name(s)
     Holyday.is_holyday  (not important!)
 
+=================================================================
+
+Taches
+
+______________________________________________
+//TODO    Create user table
+//TODO    registre user with facebook
+//TODO    login user with facebook
+//TODO    get events
+//TODO    recreate calculation core
+//TODO    amplement an api (json)
+//TODO    need API to support a list of additional include and exclude list of holydays from the client
+//TODO    (optional) allow user to set the importance of every holyday befor submitting to API

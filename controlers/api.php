@@ -16,7 +16,7 @@ if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($
     $fromDate = new DateTime($_GET['from']);
     $toDate = new DateTime($_GET['to']);
 
-   // echo "calculation from :".$fromDate->format('Y-m-d')." to: ".$toDate->format('Y-m-d')."<br/>";
+
 
     $include_sun = ($_GET['sun']=='true')? true:false;
     $include_sat = ($_GET['sat']=='true')? true:false;
