@@ -48,12 +48,12 @@ var resultDiv =$('#result');
 function drawPeriod(period,index,array)
 {
 
-    text += '----> de :'+period.From+' a :'+period.To+' days: '+period.DaysCount+' cost: '+period.Cost+'<br/>';
+    text += '----> [de :'+period.From+' a :'+period.To+'] [days: '+period.DaysCount+'] [cost: '+period.Cost+']<br/>';
     period.Holydays.forEach(drawHolyday);
     text+='<br/>';
     resultDiv.html(text);
 }
 function drawHolyday(holyday,index,array)
 {
-    text += '---------->  '+ holyday.Name+' le: '+holyday.Date+'<br>';
+    text += '---------->  '+ holyday.Name+' [le: '+holyday.Date+']<br>';
 }
