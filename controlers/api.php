@@ -5,12 +5,19 @@
  * Date: 9/1/14
  * Time: 12:33 PM
  */
-
+if(session_id() == '')
+{
+    session_start();
+}
 require_once '../modules/HolyDay.php';
 require_once '../modules/DB_Manager.php';
 require_once '../modules/Period.php';
 require_once '../modules/smarty_config.php';
 require_once '../modules/LitePeriod.php';
+
+//array of events
+//print_r(extracEvents( $_SESSION['eventsArray']));
+
 if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($_GET['sun']) && isset($_GET['sat']))
 {
     $fromDate = new DateTime($_GET['from']);
@@ -26,8 +33,7 @@ if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($
     $dayscount = intval($_GET['days']);
     $holydays;
     $resultData=array();
-
-
+    DB::$FacbookEventsList =  extracEvents($_SESSION['eventsArray']);
     //get the list of days between given dates
     $holydays =HolyDay::GetolyDays($fromDate,$toDate,$include_sat,$include_sun) ;
     foreach ($holydays as $hd) {
@@ -65,7 +71,6 @@ if(isset($_GET['from']) && isset($_GET['to']) && isset($_GET['days']) && isset($
 
 }
 
-
 function getAll(DateTime $fromDate ,DateTime $toDate)
 {
 
@@ -84,4 +89,17 @@ function getAll(DateTime $fromDate ,DateTime $toDate)
     }
 
     return $cal;
+}
+
+function extracEvents($EventsArray)
+{
+    $events = array();
+    foreach ($EventsArray as $e)
+    {
+        $holyday = new HolyDay(new DateTime($e->start_time));
+        $holyday->HolydayName = $e->name;
+        $events[] = $holyday;
+    }
+
+    return $events;
 }

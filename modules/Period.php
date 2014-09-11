@@ -70,9 +70,11 @@ public static function getAsString($period)
 public static function GetPeriods($holydaysList, $holydayLength,$include_saturdays,$include_sundays)
 {
     $list;
-    $holydays = array();
+
+
     for ($i = 0; $i < count($holydaysList) - $holydayLength; $i++)
     {
+        $holydays =[];
         $addedDaysBefor = 0;
         $addedDaysAfter = 0;
         $cost = 0;
@@ -84,7 +86,11 @@ public static function GetPeriods($holydaysList, $holydayLength,$include_saturda
             $priority += $holydaysList[$i + $j]->Priority;
             if ($holydaysList[$i + $j]->IsHolyday)
             {
-                $holydays[]= $holydaysList[$i+$j];
+                //echo $holydaysList[$i + $j]->HolydayName;
+                if($holydaysList[$i + $j]->HolydayName !="Sunday" && $holydaysList[$i + $j]->HolydayName!="Saturday")
+                {
+                    $holydays[]= $holydaysList[$i+$j];
+                }
             }
             else
             {
@@ -117,7 +123,7 @@ public static function GetPeriods($holydaysList, $holydayLength,$include_saturda
 
         $list[] = new Period(clone $holydaysList[$i],clone $holydaysList[$i + $holydayLength-1], $length, $cost, $addedDaysAfter, $addedDaysBefor);
         $list[count( $list) - 1]->Priority = $priority;
-        $list[count( $list) - 1]->HolydaysList = $holydays;
+        $list[count( $list) - 1]->HolydaysList =  $holydays;
     }
 
     return $list;

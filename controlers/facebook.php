@@ -1,7 +1,8 @@
 <?php
 
-require_once('modules/DB_Manager.php');
 
+
+require_once('modules/DB_Manager.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookHttpable.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookCurl.php');
 require_once('external/facebook/src/Facebook/HttpClients/FacebookCurlHttpClient.php');
@@ -25,7 +26,7 @@ use Facebook\FacebookRequestException;
 
 
 $loginString;
-$eventsArray;
+
 // init app with app id (APPID) and secret (SECRET)
 FacebookSession::setDefaultApplication('1462311460710112','9d463a4952ceab96f73c052df23ca370');
 
@@ -52,7 +53,6 @@ catch( Exception $ex )
 if ( isset( $session ) )
 {
     // graph api request for user data
-
     $request = new FacebookRequest( $session, 'GET', '/me?fields=id,name,first_name,last_name,gender,birthday,email,events' );
     $response = $request->execute();
     // get response
@@ -60,7 +60,8 @@ if ( isset( $session ) )
 
 
     register_uer($graphObject);
-    $eventsArray =print_r( ($graphObject['events']->data),true);
+    $_SESSION['eventsArray'] = $graphObject['events']->data;
+
 }
 else
 {
@@ -78,16 +79,16 @@ $birthday = $graph['birthday'];
 $tel = null;
 
 DB::add_user($id,$first_name,$last_name,$email,$gender,$tel,$birthday);
-
-}
-function extracEvents($graph)
+function getEvents()
 {
-$id  = $graph['id'];
-$start_time = $graph['start_time'];
-$end_time = $graph['end_time'];
-$name= $graph['name'];
-$location= $graph['location'];
-$time_zone  = $graph['timezone'];
+    $request = new FacebookRequest( $session, 'GET', '/me?fields=id,name,first_name,last_name,gender,birthday,email,events' );
+    $response = $request->execute();
+    // get response
+    $graphObject = $response->getGraphObject()->asArray();
 
+
+    register_uer($graphObject);
+    $_SESSION['eventsArray'] = $graphObject['events']->data;
+}
 }
 

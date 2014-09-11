@@ -12,7 +12,7 @@ class HolyDay
     public $Date;
     public $HolydayName="";
     public $dateTime;
-
+    public $Type;
     public $NextIsHolyday = false;
     public $PreviousIsHolyday = false;
     public $Priority;
@@ -52,6 +52,48 @@ class HolyDay
 
     }
 
+    public function ListCheck($holydayslist)
+    {
+        //TODO dynamic Priority
+        foreach ($holydayslist as $holyday)
+        {
+            if($this->dateTime->format('Y-m-d')==$holyday->dateTime->format('Y-m-d'))
+            {
+
+                if ($this->IsHolyday)
+                {
+                    $this->HolydayName = $this->HolydayName . " and " . $holyday->HolydayName;
+                    $this->Priority = 1;
+                    $this->Type = $this->Type.' '.$holyday->Type;
+                }
+                else
+                {
+                    $this->HolydayName =$holyday->HolydayName;
+                    $this->Type = $holyday->Type;
+                }
+                $this->IsHolyday = true;
+                $this->Priority = 1;
+            }
+        }
+    }
+
+    public function ExcludeList($excludeList)
+    {
+        foreach ($excludeList as $holyday)
+        {
+            if($this->dateTime->format('Y-m-d')==$holyday->dateTime->format('Y-m-d'))
+            {
+
+
+                    $this->HolydayName = '';
+                    $this->Priority = 0;
+                    $this->Type = '';
+                    $this->IsHolyday = false;
+
+            }
+        }
+    }
+
     public static function GetDayFromInt(string $date)
     {
         $d = $date.Remove(2, 2);
@@ -64,7 +106,7 @@ class HolyDay
         return intval($d);
     }
 
-    public static function GetolyDays(DateTime $from, DateTime $to,$include_saturdays ,$include_sundays,  string &$output=null)
+    public static function GetolyDays(DateTime $from, DateTime $to,$include_saturdays ,$include_sundays , string &$output=null)
     {
         $holydays=array();
         $datediff = $from->diff( $to);
@@ -80,9 +122,14 @@ class HolyDay
 
             $holydays[] =DB::checkIsHolyday( new HolyDay(clone $loopDate),$include_saturdays,$include_sundays);
 
-            $output = $output + $holydays[count($holydays) - 1]->Date . "<br>";
+            $output = $output . $holydays[count($holydays) - 1]->Date . "<br>";
             $loopDate->add( new DateInterval('P1D'));
         }
         return $holydays;
+    }
+
+    public static function EventArrayToHolydays($eventArray)
+    {
+
     }
 }

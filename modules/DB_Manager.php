@@ -4,18 +4,26 @@
  * Date: 8/30/14
  * Time: 1:02 PM
  */
-require_once 'HolyDay.php';
+$path = $_SERVER['DOCUMENT_ROOT'];
+require_once $path.'/modules/HolyDay.php';
+require_once $path.'/Config.php';
 
 class DB
 {
+    public static $FacbookEventsList;
+    public static $AdditionalHolydays;
+    public static $ExcludedHolydays;
     public static $Logs = 'none';
-    public static  $connection;
+    public static $connection;
 
     public static function ConnectDB()
     {
         if (!isset(self::$connection))
         {
-            self::$connection = new PDO('mysql:host=localhost; dbname=agenda','root','toor',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+            $hostAndDbName ='mysql:host=localhost; dbname='.DataBaseName;
+            $password = DBPassword;
+            $userName = DBUserName;
+            self::$connection = new PDO($hostAndDbName,$userName,$password,array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
             $Logs =  'just connected<br>';
             return  true;
         }
@@ -141,13 +149,14 @@ class DB
         return  false;
     }
     //check if a day match a holy day and return a new hly dy object containing holyday name(s) and new state
-    public  static  function checkIsHolyday($holyday,$include_saturdays,$include_sundays)
+    public  static  function checkIsHolyday(HolyDay $holyday,$include_saturdays,$include_sundays)
     {
 
         self::ConnectDB();
         if (isset(self::$connection))
         {
             $sql = "SELECT * FROM test_national WHERE date = '$holyday->Date' ";
+
             $Logs = "<br>".$sql."<br>";
             $q = self::$connection->query($sql);
             if($q)
@@ -159,7 +168,7 @@ class DB
                     $holyday->IsHolyday = true;
                     $holyday->Priority = 3;
                 }
-                else
+                //else if(in_array($holyday->dateTime->format('Y-m-d'),$add_holydays))
                 {
 
 
@@ -174,6 +183,8 @@ class DB
         {
             $Logs = "connection Error";
         }
+       $holyday->ListCheck(self::$FacbookEventsList);
+       // $holyday->ListCheck(self::$AdditionalHolydays);
 
         if (($holyday->dateTime->format('w') == 6 && $include_saturdays) || ($holyday->dateTime->format('w') == 0 && $include_sundays))
         {
@@ -191,6 +202,7 @@ class DB
             $holyday->Priority = 1;
         }
 
+       // $holyday->ExcludeList(self::$ExcludedHolydays);
 
 
 
@@ -231,6 +243,22 @@ class DB
             return false;
         }
     }
+
+    public static function checkIsEvent(HolyDay $holyday)
+    {
+        foreach (self::$FacbookEventsList as $event)
+        {
+            if($holyday->dateTime==$event->dateTime)
+            {
+                $outholyday = new HolyDay($event->dateTime);
+                $outholyday->HolydayName = $event->name;
+                return $outholyday;
+            }
+        }
+        return null;
+    }
+
+
 }
 
 

@@ -27,6 +27,13 @@ $(document).ready
                     {
                         console.log(data);
                         Data = data;
+                        text='';
+                        resultDiv.html('');
+                        text +='Jours Economique <br>';
+                        data.economique.forEach(drawPeriod);
+
+                        text +='Jours Longue <br>';
+                        data.longue.forEach(drawPeriod);
                     },
                     error: function(){ console.log('error...!')  }
 
@@ -36,3 +43,17 @@ $(document).ready
         });
     }
 );
+var text= '';
+var resultDiv =$('#result');
+function drawPeriod(period,index,array)
+{
+
+    text += '----> de :'+period.From+' a :'+period.To+' days: '+period.DaysCount+' cost: '+period.Cost+'<br/>';
+    period.Holydays.forEach(drawHolyday);
+    text+='<br/>';
+    resultDiv.html(text);
+}
+function drawHolyday(holyday,index,array)
+{
+    text += '---------->  '+ holyday.Name+' le: '+holyday.Date+'<br>';
+}

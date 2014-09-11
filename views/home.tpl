@@ -11,7 +11,7 @@
 <label for="to_date">To</label>
 <input type="date" id="to_date" name="btn" value="send">
 <label for="num_of_days">number of Days</label>
-<input type="text" id="num_of_days" name="btn" value="send">
+<input type="text" id="num_of_days" name="btn" value="7">
 <label for="include_sat">Saturdays</label>
 <input type="checkbox" id="include_sat">
 <label for="include_sun">Sundays</label>
